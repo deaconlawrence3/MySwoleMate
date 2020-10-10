@@ -9,7 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.Web.config
+*MySwoleMate\Web.config
+*MySwoleMate\Web.Debug.config
+*MySwoleMate\Web.Release.config
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
