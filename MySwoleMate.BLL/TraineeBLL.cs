@@ -16,6 +16,7 @@ namespace MySwoleMate.BLL
         //Constructor that accepts a connectionString from the Presentation Layer,
         //Use the connectionString to pass into a new instance of the Data Access Layer class
         //TraineeDAL
+     
         public TraineeBLL(string connectionString)
         {
             data = new TraineeDAL(connectionString);

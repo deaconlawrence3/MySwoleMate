@@ -15,8 +15,9 @@ namespace MySwoleMate.DAL
         //uses connection string for connecting to database
         private string _connectionString;
         public TraineeDAL(string connectionString)
-        {
+        {        
             _connectionString = connectionString;
+
         }
 
         //Returns All Trainees
@@ -77,6 +78,8 @@ namespace MySwoleMate.DAL
                 {
                     while (reader.Read())
                     {
+
+
                         trainee.TraineeID = Convert.ToInt32(reader["TraineeID"]);
                         trainee.FirstName = reader["FirstName"].ToString();
                         trainee.LastName = reader["LastName"].ToString();

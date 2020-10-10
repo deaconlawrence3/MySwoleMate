@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySwoleMate", "MySwoleMate\MySwoleMate.csproj", "{971D491E-B9E6-48FF-822B-A1EBF4303A35}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySwoleMate.DAL", "MySwoleMate.DAL\MySwoleMate.DAL.csproj", "{77505065-D842-4BA6-9A10-A21CE466B3FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySwoleMate.Models", "MySwoleMate.Models\MySwoleMate.Models.csproj", "{B20C5675-024E-4A54-BE52-86FB6DE4C83E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySwoleMate_Specs", "MySwoleMate_Specs\MySwoleMate_Specs.csproj", "{C167147E-12DB-4700-A120-F44952118192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationFramework", "AutomationFramework\AutomationFramework.csproj", "{81B53CE2-1712-4157-B9A7-9EDDA933C914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +37,19 @@ Global
 		{B20C5675-024E-4A54-BE52-86FB6DE4C83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B20C5675-024E-4A54-BE52-86FB6DE4C83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B20C5675-024E-4A54-BE52-86FB6DE4C83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C167147E-12DB-4700-A120-F44952118192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C167147E-12DB-4700-A120-F44952118192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C167147E-12DB-4700-A120-F44952118192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C167147E-12DB-4700-A120-F44952118192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B53CE2-1712-4157-B9A7-9EDDA933C914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B53CE2-1712-4157-B9A7-9EDDA933C914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B53CE2-1712-4157-B9A7-9EDDA933C914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B53CE2-1712-4157-B9A7-9EDDA933C914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DFC8C23-BCFE-466A-BAF4-5E96BB832A1C}
 	EndGlobalSection
 EndGlobal
